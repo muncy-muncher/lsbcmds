@@ -263,6 +263,6 @@ local TeleportCheck = false
 game.Players.LocalPlayer.OnTeleport:Connect(function(State)
 	if (not TeleportCheck) and queueteleport then
 		TeleportCheck = true
-		queueteleport("loadstring(game:HttpGet('nil'))()")
+		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/muncy-muncher/lsbcmds/main/lsbcmds.lua'))()")
 	end
 end)
